@@ -203,7 +203,7 @@ def getGift(cookie, user_data):
     s = requests.Session()
     s.headers.update({'User-Agent': 'Mozilla/5.0 (Linux; Android 12; Mi 10 Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36 GH_QQConnect GameHelper_1003/2103050011'})
 
-    url = "http://act.game.qq.com/ams/ame/amesvr?ameVersion=0.3& =bb&iActivityId=468228&sServiceDepartment=xinyue&sSDID=42a6eb3c5e2fec32f90c3b085368457a&sMiloTag=AMS-MILO-468228-856162-3CCD3D9E40083C0B4A9EB2BE6F073116-1676831452329-d5zK3l&_=1676831452333"
+    url = "https://act.game.qq.com/ams/ame/amesvr?ameVersion=0.3& =bb&iActivityId=468228&sServiceDepartment=xinyue&sSDID=42a6eb3c5e2fec32f90c3b085368457a&sMiloTag=AMS-MILO-468228-856162-3CCD3D9E40083C0B4A9EB2BE6F073116-1676831452329-d5zK3l&_=1676831452333"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Linux; Android 12; Mi 10 Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36 GH_QQConnect GameHelper_1003/2103040778',
         'Connection': 'keep-alive',
